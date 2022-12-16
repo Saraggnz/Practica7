@@ -1,0 +1,42 @@
+/*Creamos los estilos del primer div */
+div {
+    /*Le ponemos color al fondo y margenes a los lados. Tambien le añadimos altura y anchura que determinará su tamaño. Y le otorgamos la posicion absolute*/
+    background-color: rgb(63, 115, 163);
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 160px;
+    height: 120px;
+    position: fixed
+}
+
+/*Creamos los estilos del div hijo. Que será el cuadrado que irá dentro del primer div */
+.divhijo {
+    /*Como en el anterior, le añadimos color, anchura y altura y lo posicionamos donde lo queremos con "top,left,bottom" */
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    left: 20px;
+    bottom: 60px;
+}
+/*Creamos los estilos del segundo cuadrado padre */
+.div2 {
+    /*En este, a parte de añadirle color, tamaño y margenes, le tenemos que poner el valor "z-index:-1" esto hará que se posicione detrás de la primera capa */
+    background-color: red;
+    margin-top: 140px;
+    margin-left: 100px;
+    height: 120px;
+    width: 160px;
+    position: absolute;
+    z-index: -1;
+
+
+}
+/*Como en el anterior div hijo, le añadimos color, anchura y altura y lo posicionamos donde lo queremos." */
+.divhijo2 {
+    background-color: rgb(83, 180, 83);
+    height: 40px;
+    width: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+}

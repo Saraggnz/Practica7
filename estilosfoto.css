@@ -1,0 +1,26 @@
+/* Añadimos los estilos al primer texto. Lo posicionamos abajo a la izquierda de la imagen y le añadimos un tamaño y fuente.*/
+.texto1 {
+    position: absolute;
+    margin-left:20px;
+    bottom: 40%;
+    width: 50%;
+    font-size: 20px;
+    font-family: Arial;
+    text-align:start
+
+}
+/* Hacemos lo mismo que con el texto anterior, pero este lo colocaremos en el centro de la imagen*/
+.texto2 {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+/* Le añadimos tamaño a la imagen para que entre en la pantalla y le ponemos opacidad para que podamos leer el texto*/
+img {
+    opacity: 70%;
+    width: 50%;
+}
